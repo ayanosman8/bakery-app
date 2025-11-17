@@ -35,7 +35,7 @@ export default function Footer() {
                 <Sparkles className="w-8 h-8 text-pink-400 animate-pulse" />
                 <div className="absolute inset-0 bg-pink-400/20 blur-xl rounded-full"></div>
               </div>
-              <span className="text-2xl font-extralight tracking-tight">
+              <span className="text-2xl font-serif font-medium tracking-tight">
                 <span className="bg-gradient-to-r from-pink-200 via-rose-200 to-pink-200 bg-clip-text text-transparent">
                   La Rose
                 </span>
@@ -98,7 +98,7 @@ export default function Footer() {
         >
           <div className="absolute -inset-1 bg-gradient-to-r from-pink-500 via-rose-500 to-pink-500 rounded-3xl blur-xl opacity-30 group-hover:opacity-50 transition duration-1000"></div>
           <div className="relative bg-gradient-to-r from-pink-500/10 via-rose-500/10 to-pink-500/10 backdrop-blur-xl rounded-3xl border border-pink-300/20 p-12 text-center">
-            <h3 className="text-3xl md:text-4xl font-extralight text-white mb-4">
+            <h3 className="text-3xl md:text-4xl font-serif font-normal text-white mb-4">
               Visit us for something{" "}
               <span className="bg-gradient-to-r from-pink-300 to-rose-300 bg-clip-text text-transparent">
                 delicious

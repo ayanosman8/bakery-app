@@ -244,7 +244,7 @@ const MenuCard = ({ item, index }: { item: any; index: number }) => {
           </motion.div>
 
           <motion.h3
-            className="text-lg font-extralight text-white mb-2"
+            className="text-lg font-medium text-white mb-2"
             animate={{
               color: isHovered ? ["#ffffff", "#fbcfe8", "#ffffff"] : "#ffffff"
             }}
@@ -384,7 +384,7 @@ export default function Menu() {
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
         >
-          <h2 className="text-4xl md:text-6xl font-extralight tracking-tight mb-6">
+          <h2 className="text-4xl md:text-6xl font-serif font-normal tracking-tight mb-6">
             <span className="text-white">Our </span>
             <span className="bg-gradient-to-r from-pink-400 via-rose-300 to-pink-400 bg-clip-text text-transparent">
               Creations

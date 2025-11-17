@@ -34,7 +34,7 @@ export default function Header() {
           <div className="absolute -inset-0.5 bg-gradient-to-r from-pink-500 via-rose-500 to-pink-500 rounded-2xl blur opacity-30 group-hover:opacity-50 transition duration-1000"></div>
 
           {/* Main navbar */}
-          <nav className="relative bg-gradient-to-r from-pink-500/10 via-rose-500/10 to-pink-500/10 backdrop-blur-xl rounded-2xl border border-pink-300/20 px-6 py-4">
+          <nav className="relative bg-black/40 backdrop-blur-2xl rounded-2xl border border-pink-300/20 px-6 py-4 shadow-2xl">
             <div className="flex items-center justify-between">
               {/* Logo */}
               <div className="flex items-center gap-2">
@@ -42,7 +42,7 @@ export default function Header() {
                   <Sparkles className="w-6 h-6 text-pink-400 animate-pulse" />
                   <div className="absolute inset-0 bg-pink-400/20 blur-xl rounded-full"></div>
                 </div>
-                <span className="text-2xl font-extralight tracking-tight">
+                <span className="text-2xl font-serif font-medium tracking-tight">
                   <span className="bg-gradient-to-r from-pink-200 via-rose-200 to-pink-200 bg-clip-text text-transparent">
                     La Rose
                   </span>

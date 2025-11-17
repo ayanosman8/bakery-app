@@ -3,6 +3,7 @@
 import React, { useRef, useState, useEffect } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { Sparkles, Heart, Star } from "lucide-react";
+import Spline from '@splinetool/react-spline';
 
 export default function Hero() {
   const containerRef = useRef(null);
@@ -83,6 +84,16 @@ export default function Hero() {
         </div>
       )}
 
+      {/* Spline 3D Animation */}
+      {isMounted && (
+        <div className="absolute top-0 right-0 w-full md:w-1/2 h-full pointer-events-none opacity-60 md:opacity-80">
+          <Spline
+            scene={`https://prod.spline.design/4ULmotreRmLQiCn4/scene.splinecode?v=${Date.now()}`}
+            style={{ background: 'transparent' }}
+          />
+        </div>
+      )}
+
       <div className="max-w-5xl mx-auto text-center space-y-8 relative z-10 px-4">
         {/* Main heading */}
         <motion.div
@@ -91,7 +102,7 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <h1 className="text-5xl md:text-6xl lg:text-8xl font-extralight leading-tight text-center tracking-tight">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-normal leading-tight text-center tracking-tight">
             {words.map((word, index) => (
               <span
                 key={index}

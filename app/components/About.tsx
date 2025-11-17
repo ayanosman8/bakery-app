@@ -20,7 +20,7 @@ export default function About() {
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
         >
-          <h2 className="text-4xl md:text-6xl font-extralight tracking-tight mb-6">
+          <h2 className="text-4xl md:text-6xl font-serif font-normal tracking-tight mb-6">
             <span className="bg-gradient-to-r from-pink-400 via-rose-300 to-pink-400 bg-clip-text text-transparent">
               Our Story
             </span>
@@ -61,7 +61,7 @@ export default function About() {
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
           >
-            <h3 className="text-3xl md:text-4xl font-extralight text-white">
+            <h3 className="text-3xl md:text-4xl font-serif font-normal text-white">
               Baking traditions that{" "}
               <span className="bg-gradient-to-r from-pink-400 to-rose-400 bg-clip-text text-transparent">
                 taste like home

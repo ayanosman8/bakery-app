@@ -94,7 +94,7 @@ export default function Cart({ isOpen, onClose }: CartProps) {
                     </div>
                   </div>
                   <div>
-                    <h2 className="text-2xl font-extralight text-white">Your Order</h2>
+                    <h2 className="text-2xl font-serif font-normal text-white">Your Order</h2>
                     <p className="text-xs text-white/60 font-light">La Rose Pâtisserie</p>
                   </div>
                 </div>
@@ -205,7 +205,7 @@ export default function Cart({ isOpen, onClose }: CartProps) {
                   <div className="h-px bg-gradient-to-r from-transparent via-pink-300/20 to-transparent"></div>
                   <div className="flex justify-between">
                     <span className="text-white font-light">Total</span>
-                    <span className="text-2xl font-extralight bg-gradient-to-r from-pink-400 to-rose-400 bg-clip-text text-transparent">
+                    <span className="text-2xl font-serif font-medium bg-gradient-to-r from-pink-400 to-rose-400 bg-clip-text text-transparent">
                       ${total.toFixed(2)}
                     </span>
                   </div>
